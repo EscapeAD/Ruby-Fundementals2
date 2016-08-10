@@ -15,3 +15,23 @@ puts ""
 puts "added rice"
 
 giveme(grocery_list)
+
+puts ""
+
+puts "number of stuff to pick up"
+puts grocery_list.count
+
+puts ""
+if grocery_list.include?("banana")
+  puts "we good on Bananas!"
+else
+  puts "Need to pick up Bananas!"
+end
+puts ""
+puts "Second item on list"
+puts grocery_list[1]
+
+puts ""
+sorted = grocery_list.sort
+puts "Got to sort this"
+giveme(sorted)
