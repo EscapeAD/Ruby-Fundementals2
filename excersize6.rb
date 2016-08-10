@@ -35,3 +35,9 @@ puts ""
 sorted = grocery_list.sort
 puts "Got to sort this"
 giveme(sorted)
+
+puts ""
+sorted.delete("salmon")
+puts "new list"
+puts "NO SALMON"
+giveme(sorted)
