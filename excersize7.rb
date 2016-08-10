@@ -29,10 +29,16 @@ rooms(students)
 students[:cohert4] = 43
 students.keys
 
-puts ""
+puts "actually 5% more"
 
 rooms2(students)
 rooms(students)
 
-puts "bonus time"
+puts "REMOVING CLASS 2"
+
+students.delete(:cohort2)
+
+rooms(students)
+
+puts "Bonus time"
 total(students)
